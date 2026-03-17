@@ -12,6 +12,7 @@ export const categories = async (req, res) => {
 }
 
 
+
 export const search = async (req, res) => {
     const data = await searchProducts(req.params.q)
     res.json(data)

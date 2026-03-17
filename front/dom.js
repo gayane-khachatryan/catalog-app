@@ -8,6 +8,7 @@ import { state } from "./script.js"
 const $ = s => document.querySelector(s)
 
 function openModal(p) {
+
     $("#modalHead").textContent = `#${p.id} • ${p.category}`
     $("#mTitle").textContent = p.title
     $("#mDesc").textContent = p.description

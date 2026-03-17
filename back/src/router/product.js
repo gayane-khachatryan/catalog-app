@@ -4,6 +4,7 @@ import { products, search, category, sort, page,categories } from "../controller
 const router = Router()
 
 
+
 router.get("/products", products)
 router.get("/search/:q", search)
 router.get("/categories", categories)

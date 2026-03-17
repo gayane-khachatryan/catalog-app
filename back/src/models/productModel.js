@@ -24,6 +24,7 @@ export const searchProducts = async (q) => {
 
 export const getCategoryProducts = async (cat) => {
 
+
     const [rows] = await pool.query(`
         SELECT * FROM products
         WHERE category = ?
