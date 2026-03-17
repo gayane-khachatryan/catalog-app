@@ -4,7 +4,8 @@ export async function axios(url, options = {}) {
         let response = await fetch(url, options);
 
         if (!response.ok) {
-            const errData = await response.json();
+            const errData = await response.json()
+
             throw errData.message
         }
 
