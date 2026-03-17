@@ -27,6 +27,9 @@ export const getCategoryProducts = async (cat) => {
 }
 
 
+
+
+
 export const sortProducts = async (sortBy, order) => {
     const res = await axios(
         `http://localhost:3051/product/sort?sortBy=${sortBy}&order=${order}`

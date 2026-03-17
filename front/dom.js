@@ -1,6 +1,10 @@
 import { searchProducts, getCategoryProducts, pageProducts, getProducts, sortProducts } from "./action.js"
 import { state } from "./script.js"
 
+
+
+
+
 const $ = s => document.querySelector(s)
 
 function openModal(p) {

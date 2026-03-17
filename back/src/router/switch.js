@@ -6,3 +6,6 @@ const router = Router()
 router.use("/product", productRouter)
 
 export default router
+
+
+
