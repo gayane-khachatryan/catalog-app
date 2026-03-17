@@ -12,4 +12,5 @@ export const state = {
 document.addEventListener("DOMContentLoaded", () => {
     getProducts()
     getCategories()
+
 })
